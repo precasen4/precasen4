@@ -12,5 +12,12 @@
 i es una forma d'aconseguir una sortida analògica a partir de diverses sortides digitals, molt ràpides.</p>
 <p>PWM es representa amb el símbol "~" tal com podem veure a la imatge següent d'un Arduino Uno</p>
 <img src="arduinouno.webp" width="600" height="400">
-<p>Més amunt podem veure que els pins numeros 10 i 11</p>
+<p>Més amunt podem veure que els pins numero 3,5,6,9,10 i 11</p>
+ <p>Aquests PWM són sortides analògiques de 8 bits, en el cas de Arduino Uno Rev3, d'acord amb el
+  <a href="https://docs.arduino.cc/resource/datasheets7ABXX00080-datasheet.pdf"> abricant</a> que l'anomena Converter</p>
+<p>Tenir 8 o 12 bits en un convertidor digital analògic o DAC tippus PWM fa que tinguem 2 <sup>8</sup><sup>o 2</sup>
+  <sup>10</sup>nivells diferents de corrent, es a dir 256 sinvells diferents o 2048 nivells diferents</p>
+<p>Suposem que tant Arduino Uno Rev3 o Rev4 poden donder 5 volts com a màxim. Quina seria la resolució en milivolts de cada arduino?</p>
+<p>5 volts entre 256 dona 0.01953125 volts= 19 milivolts per arduino Un Rev3</p>
+<p>volts dividint ntre 2048 dona 0.00244140625 volts=2milivolts per arduino Uno Rev4</p>
 </body></html>
